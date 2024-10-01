@@ -8,5 +8,33 @@
 
 為找出與糖尿病最相關的因素，本實驗建置三個機器學習演算法，分別是、決策樹，與隨機森林，將懷孕次數、血液中葡萄糖濃度、舒張壓、三頭肌皮摺厚度、胰島素濃度、值、糖尿病函數輸入至本系統，以利機器學習，找出各個因素與糖尿病的相關程度，也可以此比較各個演算法的準確度。
 
-**-----------**
--**詳情請看[書面報告]([https://example.com](https://github.com/ChingJuYeh/DataMining/blob/main/%E6%9B%B8%E9%9D%A2%E5%A0%B1%E5%91%8A.docx))
+
+**三、結果分析**
+
+*隨機森林的正確率略高於決策樹，決策樹加上Bagging後會增加其正確率。
+![image](https://github.com/user-attachments/assets/3cfda7b0-97f9-4888-8d83-6f3327760aa3)
+
+*決策樹 V.S 隨機森林
+![image](https://github.com/user-attachments/assets/68ed0025-fa2e-48ff-bad7-a6381866c83e)
+
+*四種方式測試七項因素與糖尿病相關性
+1. Decision tree
+   
+   ![image](https://github.com/user-attachments/assets/925108db-56af-4153-8556-cefc474d7901)
+
+2. Decision tree (best depth)
+   
+   ![image](https://github.com/user-attachments/assets/078c54f3-6a31-4e3b-b3a7-5d1f7c18066f)
+
+3. Decision tree (Bagging)
+
+   ![image](https://github.com/user-attachments/assets/e26513ca-c8e1-4098-a245-401f744b5707)
+
+4. Random forest
+
+   ![image](https://github.com/user-attachments/assets/c17f82ec-c3db-4b81-87fc-ad689a39206a)
+
+
+**-------------------------------------------------------------------------------------------------------------------------------------------------------**
+
+詳情請看[書面報告](https://github.com/ChingJuYeh/DataMining/blob/main/%E6%9B%B8%E9%9D%A2%E5%A0%B1%E5%91%8A.docx) 
